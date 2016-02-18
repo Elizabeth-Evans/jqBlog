@@ -1,0 +1,108 @@
+header nav{
+  width: 100%;
+  background-color: lightgrey;
+  height: 40%;
+}
+
+li{
+  list-style-type: none;
+}
+
+div{
+  display: inline-block;
+}
+li{
+  display:inline-block;
+  /*padding-top:5%;*/
+}
+
+
+.one li:nth-child(2){
+  border: 1px grey solid;
+}
+
+
+#eighty div {
+  width: 80%;
+  padding-left: 10%;
+}
+
+
+
+div.aside {
+  width:20%;
+}
+.aside img{
+  border-radius: 4%;
+  height: 25%;
+  width: 25%;
+  padding-top: 3%;
+}
+
+.aside ul{
+  /*border: 1px grey solid;*/
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.main{
+  width: 50%;
+  display: inline-block;
+  display: inline;
+}
+.main section{
+  width:100%;
+  display:inline;
+  display: inline-block;
+  vertical-align: top;
+  margin: auto 0;
+}
+
+#buttons div{
+  width:80%;
+  display: inline block;
+  display:inline;
+  text-align: right;
+
+}
+
+
+
+#repos{
+  width:100%;
+  display: inline-block;
+}
+
+/*section {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: pink;
+  padding-top: 1%;
+}
+
+section ul li:first-child {
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+}
+
+section ul li {
+  list-style-type: none;
+  color: #fff;
+}
+
+section ul li:last-child {
+  font-size: 2em;
+}
+
+section ul li h3 {
+  display: inline-block;
+}
+*/
+
+
+
+/*aside textarea {
+  width: 100%;
+}*/
