@@ -16,114 +16,76 @@
         <title>JQBlog</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
         <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="bower_components/octicons/octicons.css" media="screen" title="no title" charset="utf-8">
       </head>
-
       <body>
-      <div id="eighty">
-        <header>
-          <nav class ="one">
-            <ul class="one">
-              <li><img src="" alt="" /></li>
-              <li>Search GitHub</li>
-              <li>Pull Requests</li>
-              <li>Issues</li>
-              <li>Gist</li>
-              <li><img src="" alt="" /></li>
-            </ul>
-          </nav>
-        </header>
+   <header>
 
-        <div class="aside">
-          <img src="me.jpg"  />
-          <h1> Elizabeth Evans</h1>
-          <h2> Elizabeth-Evans</h2>
+     <ul>
+       <li><span class="octicon octicon-mark-github"></span></li>
+       <li>
+         <form class="">
+           <input type="text" name="title" placeholder="Search Github">
+         </form>
+       </li>
+       <li class="right">Pull requests</li>
+       <li>Issues</li>
+       <li>Gist</li>
+       <li class="superRight"><span class="octicon octicon-plus"></span></li>
+       <li><img alt="@Elizabeth-Evans" class="avatar" height="30" src="https://avatars1.githubusercontent.com/u/16964565?v=3&amp;s=40" width="30"></li>
+     </ul>
+   </header>
+   <div class="container">
+     <aside>
+       <div class="box">
+         <img alt="" class="avatar rounded-2" height="230" src="https://avatars1.githubusercontent.com/u/16964565?v=3&amp;s=460" width="230">
+         <h2>Elizabeth Evans</h2>
+         <p class="userName">
+           Elizabeth-Evans
+         </p>
+         <p class="email">
+           <span class="octicon octicon-mail"></span>ickabeth@gmail.com
+         </p>
+         <p class="date">
+           <span class="octicon octicon-clock"></span>Joined on Jan 29, 2016
+         </p>
 
-            <p>
-              ickabeth@gmail.com
-            </p>
-            <p>
-              Joined on Jan 29, 2016
-            </p>
+       </div>
+     </aside>
 
-
-        </div>
-
-        <div class="main">
-
-
-          <section>
-            <nav id ="buttons">
-                <div data-role="main" class="ui-content">
-                  <input type="button" value="Contributions">
-                </div>
-
-                <div data-role="main" class="ui-content">
-                  <input type="button" value="Repositories">
-                </div>
-
-                <div data-role="main" class="ui-content">
-                  <input type="button" value="Public activity">
-                </div>
-
-                <div data-role="main" class="ui-content">
-                  <input type="button" value="Edit profile">
-                </div>
+    <div class ="main">
+      <nav>
+        <ul>
+          <li class="butionsButton"><a rel="contributions" class="blogLink" href="">Contributions</a></li>
+          <li class = "repoButton"><a rel="about" class="aboutLink" href="">Repositories</a></li>
+          <li class="contactButtons"><a rel="contact" class="contactLink" href="">Publicity</a></li>
+        </ul>
+      </nav>
 
 
-            </nav>
-            <div>
-              <nav>
-                <ul>
-                  <li>Find a repository</li>
-                  <li>Search</li>
-                  <li>All</li>
-                  <li>Public</li>
-                  <li>Sources</li>
-                  <li>Forks</li>
-                  <li>Mirrors</li>
-                  <li>New</li>
-              <div id="repos">
-
-
-              </div>
-
-
-              <div id="activity">
-
-
-              </div>
-            </div>
-
-
-
-        <footer>
-
-        </footer>
+      <section class="contributions">
 
 
 
 
+     </section>
+     <section class="repositories">
+
+     </section>
+     <section class="publicity">
+
+     </section>
 
 
+   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-    </div>
-    <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
-    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
-    <script src="activity.js" charset="utf-8"></script>
-    <script src="orgs.js" charset="utf-8"></script>
-    <script src="repos.js" charset="utf-8"></script>
-    <script src="user.js" charset="utf-8"></script>
-    <script src="main.js" charset="utf-8"></script>
-  </body>
+  <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+  <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="activity.js" charset="utf-8"></script>
+  <script src="posts.js" charset="utf-8"></script>
+  <script src="repos.js" charset="utf-8"></script>
+  <script src="user.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
 </html>

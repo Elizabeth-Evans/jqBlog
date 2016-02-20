@@ -1,108 +1,90 @@
-header nav{
-  width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
   background-color: lightgrey;
-  height: 40%;
-}
-
-li{
-  list-style-type: none;
-}
-
-div{
-  display: inline-block;
-}
-li{
-  display:inline-block;
-  /*padding-top:5%;*/
-}
-
-
-.one li:nth-child(2){
-  border: 1px grey solid;
-}
-
-
-#eighty div {
-  width: 80%;
-  padding-left: 10%;
-}
-
-
-
-div.aside {
-  width:20%;
-}
-.aside img{
-  border-radius: 4%;
-  height: 25%;
-  width: 25%;
-  padding-top: 3%;
-}
-
-.aside ul{
-  /*border: 1px grey solid;*/
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.main{
-  width: 50%;
-  display: inline-block;
-  display: inline;
-}
-.main section{
-  width:100%;
-  display:inline;
-  display: inline-block;
-  vertical-align: top;
-  margin: auto 0;
-}
-
-#buttons div{
-  width:80%;
-  display: inline block;
-  display:inline;
-  text-align: right;
-
-}
-
-
-
-#repos{
-  width:100%;
-  display: inline-block;
-}
-
-/*section {
-  width: 70%;
-  display: inline-block;
-  vertical-align: top;
-  background-color: pink;
-  padding-top: 1%;
-}
-
-section ul li:first-child {
-  list-style-type: none;
-  text-align: center;
-  color: #fff;
-}
-
-section ul li {
-  list-style-type: none;
-  color: #fff;
-}
-
-section ul li:last-child {
-  font-size: 2em;
-}
-
-section ul li h3 {
-  display: inline-block;
-}
-*/
-
-
-
-/*aside textarea {
+  display:block;
   width: 100%;
+}
+.octicon-mark-github{
+
+}
+input{
+  width:200%;
+}
+
+.right{
+  text-align: right;
+  padding-left: 16%;
+}
+
+.superRight{
+  padding-left: 26%;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 2%;
+}
+aside, div.main {
+  display: inline-block;
+  vertical-align: top;
+}
+.main{
+  width:60%;
+  display:inline-block;
+}
+section {
+  /*display: none;*/
+  /*background-color: blue;*/
+  width: 85%;
+}
+
+aside {
+  /*background-color: yellow;*/
+  width: 29%;
+}
+.userName{
+  color:grey;
+}
+.email{
+  color:blue;
+}
+.date{
+  color:grey;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul > li {
+  display: inline-block;
+  padding: 20px;
+}
+/*ul > li:hover {
+  background-color: white;
 }*/
+
+article {
+  margin: 20px;
+  padding: 10px;
+
+}
+.active {
+  display: inline-block;
+}
+.repoButton{
+  border-top: lightgrey solid 1px;
+  border-left: lightgrey solid 1px;
+  border-right: lightgrey solid 1px;
+}
+.butionsButton{
+  border-bottom: lightgrey solid 1px;
+}
+.contactButtons{
+  border-bottom: lightgrey solid 1px;
+  padding-right: 40%;
+}
